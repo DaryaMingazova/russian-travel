@@ -1,0 +1,17 @@
+.footer__items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+@media screen and (min-width: 425px) and (max-width: 550px) {
+  .footer__items {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer__items {
+    display: inline;
+  }
+}

@@ -1,38 +1,38 @@
 .lead__title {
   color: #FFFFFF;
-  max-width: 720px;
   margin: 56px 0 0;
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 104%;
   font-style: normal;
   font-weight: 900;
-  line-height: 104%;
-  font-size: 96px;
   text-align: center;
   text-rendering: optimizeLegibility;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__title {
-      margin: 0;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-      margin: 48px 0 0;
+    margin-top: 48px;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 425px) {
   .lead__title {
-      margin: 48px 0 0;
-      font-size: 40px;
+    margin-top: 48px;
+    font-size: 40px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__title {
-      max-width: 288px;
-      line-height: 110%;
-      font-size: 40px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 110%;
   }
 }

@@ -1,19 +1,14 @@
 .footer__list-item {
-  margin: 0 14px 0 0;
-  padding: 0;
+  height: fit-content;
+  width: fit-content;
+  list-style: none;
 }
 
-.footer__list-item:last-child {
-  margin-right: 0;
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .footer__list-item {
-    /*Сверху | справа | снизу | слева*/
-    margin: 0 0 32px 0;
+    margin: 32px 0 0 16px;
   }
-
-  .footer__list-item:last-child {
-    margin-bottom: 0;
+  .footer__list-item:first-of-type {
+    margin-top: 64px;
   }
 }

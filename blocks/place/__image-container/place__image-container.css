@@ -1,0 +1,16 @@
+.place__image-container {
+  display: flex;
+  margin: 48px 0 0;
+}
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+  .place__image-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image-container {
+    margin: 32px 0 0;
+  }
+}
