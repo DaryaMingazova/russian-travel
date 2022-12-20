@@ -1,15 +1,15 @@
-.place__url {
-  margin: 0;
+.place__link {
   max-width: 100%;
+  margin: 0;
   color: #FFFFFF;
   font-style: normal;
-  font-weight: normal;
-  line-height: 122%;
+  font-weight:400;
   font-size: 18px;
-  transition: opacity 0.4s;
+  line-height: 122%;
   text-decoration: underline;
+  transition: opacity 0.4s;
 }
 
-.place__url:hover {
+.place__link:hover {
   opacity: 0.8;
 }

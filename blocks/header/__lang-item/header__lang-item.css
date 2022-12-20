@@ -1,0 +1,23 @@
+.header__lang-item {
+  margin: 0;
+  min-width: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  align-self: flex-end;
+  list-style: none;
+}
+
+.header__lang-item:last-of-type {
+  text-align: right;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-item {
+    text-align: right;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}

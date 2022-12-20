@@ -1,11 +1,15 @@
 .header {
-  max-width: 1184px;
   padding: 28px 0 0;
+  width: 100%;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  flex-shrink: 0;
   align-self: center;
   align-items: center;
+  flex-shrink: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
