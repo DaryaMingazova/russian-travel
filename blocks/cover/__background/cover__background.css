@@ -10,7 +10,7 @@
   z-index: 0;
   overflow: hidden;
   text-decoration: none;
-  background-image: url(/blocks/images/cover-trains.jpg);
+  background-image: url(./images/cover-trains.jpg);
   background-position: left bottom;
   background-repeat: no-repeat;
 }
