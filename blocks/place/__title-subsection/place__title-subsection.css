@@ -1,9 +1,0 @@
-.place__title-subsection {
-  display: flex;
-}
-@media screen and (max-width: 425px) {
-  .place__title-subsection {
-    justify-content: flex-end;
-    flex-direction: column;
-  }
-}

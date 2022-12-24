@@ -1,35 +1,30 @@
+/* 1280 */
 .intro__text {
-  margin: 40px 0 32px 100px;
-  max-width: 690px;
-  color: #FFFFFF;
-  font-size: 14px;
+  margin: 0 0 38px 0;
+  padding: 0;
+  font-family: "Inter", "Arial ", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
-  line-height: 162%;
-  font-weight: normal;
+  line-height: 163%;
+  max-width: 690px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .intro__text {
-      margin-left: 48px;
+    margin-bottom: 28px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 480px) {
   .intro__text {
-    max-width: 720px;
-    margin: 40px auto 32px;
+    margin-bottom: 34px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 350px) {
   .intro__text {
-    max-width: 352px;
-    margin: 40px auto 32px;
+    margin-right: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .intro__text {
-    max-width: 288px;
-  }
-}

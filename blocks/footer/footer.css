@@ -1,5 +1,7 @@
 /* 1280, 1024 */
 .footer {
+  margin: 0 auto;
+  padding: 0 0 24px;
   width: calc(100% - 2*48px);
   max-width: 1184px;
   display: flex;
@@ -7,23 +9,21 @@
   justify-content: space-between;
   box-sizing: border-box;
   flex-wrap: wrap;
-  margin: 92px auto 0;/*отступ сверху*/
-  padding: 0 0 24px;
 }
-/*768*/
+
 @media screen and (max-width: 768px) {
   .footer {
     width: calc(100% - 2*24px);
-    margin: 88px auto 0;
   }
 }
-/*320*/
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 480px) {
   .footer {
     width: 100%;
-    padding-left: 16px;
-    margin: 64px auto 0;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 16px;
+    margin:64px 0 0 0;
+    border: 1px solid red;
   }
 }

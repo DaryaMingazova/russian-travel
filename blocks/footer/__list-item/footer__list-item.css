@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 480px) {
   .footer__list-item {
-    /*Сверху | справа | снизу | слева*/
-    margin: 0 0 32px 0;
+    margin-right: 0;
+    margin-bottom: 32px;
   }
 
   .footer__list-item:last-child {
