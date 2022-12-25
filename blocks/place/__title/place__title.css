@@ -20,7 +20,7 @@
 @media screen and (max-width: 400px) {
   .place__title {
     max-width: 92.5%;
-    margin-left: 5%;   
+    margin-left: 5%;
     font-size: 32px;
     line-height: 35px;   
   }  
