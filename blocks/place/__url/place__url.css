@@ -1,4 +1,4 @@
-.place__link {
+.place__url {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 22px;
@@ -6,7 +6,7 @@
   width: fit-content;
 }
 
-.place__link:hover {
+.place__url:hover {
   transition: 1.2s;
   opacity: 0.8;
 }
