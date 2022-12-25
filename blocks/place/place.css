@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 320px) {
   .place {  
-    gap: 32px;   
+    gap: 32px;
     margin-bottom: 50px;
   }   
   .place:last-of-type {
