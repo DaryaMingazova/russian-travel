@@ -5,9 +5,3 @@
   object-fit: cover;
   object-position: top;
 }
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    min-width: 288px; 
-  }
-}

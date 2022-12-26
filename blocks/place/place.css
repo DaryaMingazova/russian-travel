@@ -9,6 +9,15 @@
   margin-bottom: 92px;
 }
 
+
+@media screen and (max-width: 1149px) {
+  .place {   
+    grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+  }
+}
+
+
+
 @media screen and (max-width: 1024px) {
   .place {   
     gap: 48px 32px;
